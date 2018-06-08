@@ -1,6 +1,8 @@
+-- This file was automatically generated for the LuaDist project.
+
 rockspec_format = "1.0"
 package = "lua_bufflib"
-version = "0.2.0-1"
+version = "0.2.1-1"
 
 description = {
 	summary = "A library for string buffers in Lua",
@@ -33,10 +35,16 @@ dependencies = {
 	"lua >= 5.1, < 5.3"
 }
 
+-- LuaDist source
 source = {
-	url = "https://github.com/Choonster/lua_bufflib/archive/0.2.0-1.tar.gz",
-	dir = "lua_bufflib-0.2.0-1"
+  tag = "0.2.1-1",
+  url = "git://github.com/LuaDist-testing/lua_bufflib.git"
 }
+-- Original source
+-- source = {
+-- 	url = "https://github.com/Choonster/lua_bufflib/archive/0.2.1-1.tar.gz",
+-- 	dir = "lua_bufflib-0.2.1-1"
+-- }
 
 build = {
 	type = "builtin",
