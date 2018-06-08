@@ -1,5 +1,3 @@
--- This file was automatically generated for the LuaDist project.
-
 rockspec_format = "1.0"
 package = "lua_bufflib"
 version = "0.0.1-1"
@@ -30,16 +28,10 @@ dependencies = {
 	"lua >= 5.1, < 5.3"
 }
 
--- LuaDist source
 source = {
-  tag = "0.0.1-1",
-  url = "git://github.com/LuaDist-testing/lua_bufflib.git"
+	url = "https://github.com/Choonster/lua_bufflib/archive/0.0.1-1.tar.gz",
+	dir = "lua_bufflib-0.0.1-1"
 }
--- Original source
--- source = {
--- 	url = "https://github.com/Choonster/lua_bufflib/archive/0.0.1-1.tar.gz",
--- 	dir = "lua_bufflib-0.0.1-1"
--- }
 
 build = {
 	type = "builtin",
